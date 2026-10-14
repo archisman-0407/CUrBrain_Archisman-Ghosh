@@ -2,7 +2,7 @@ import java.util.*;
 public class Q12 {
     static int powerCalc(int base,int power,int Mod)
     {
-        int f=1;
+        int f=1%Mod;
         while(power>0)
         {
             f*=base;
