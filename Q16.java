@@ -4,7 +4,7 @@ public class Q16 {
     {
         int highest=-1;
         int secondhighest=-1;
-        for(int i=1;i<arr.length;i++)
+        for(int i=0;i<arr.length;i++)
         {
             if(arr[i]>highest)
             {
